@@ -1,1 +1,1 @@
-exports.seasons = (req, res) => {}
+exports.index = (req, res) => {}
