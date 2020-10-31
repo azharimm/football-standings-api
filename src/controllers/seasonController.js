@@ -1,0 +1,1 @@
+exports.seasons = (req, res) => {}
