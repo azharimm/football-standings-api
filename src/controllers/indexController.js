@@ -3,6 +3,8 @@ exports.index = (req, res) => {
     res.json({
         status: true,
         data: {
+            maintainer: 'Azhari Muhammad M <azhari.marzan@gmail.com>',
+            source: 'https://github.com/azharimm/football-standings-api',
             leagues: {
                 endpoint: '/leagues',
                 example: fullUrl+'leagues'
