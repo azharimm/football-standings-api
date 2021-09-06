@@ -3,7 +3,7 @@
 ## 1. All Leagues Available
 ```[ENDPOINT] /leagues```
 ```url
-[GET] https://api-football.azharimm.tk/leagues
+[GET] https://api-football-standings.azharimm.site/leagues
 ```
 
 #### Sample Response
@@ -29,7 +29,7 @@
 ## 2. League Detail
 ```[ENDPOINT] /leagues/{id}```
 ```url
-[GET] https://api-football.azharimm.tk/leagues/eng.1
+[GET] https://api-football-standings.azharimm.site/leagues/eng.1
 ```
 
 #### Sample Response
@@ -52,7 +52,7 @@
 ## 3. Seasons Available
 ```[ENDPOINT] /leagues/{id}/seasons```
 ```url
-[GET] https://api-football.azharimm.tk/leagues/eng.1/seasons
+[GET] https://api-football-standings.azharimm.site/leagues/eng.1/seasons
 ```
 
 #### Sample Response
@@ -71,7 +71,7 @@
 ## 4. Standings
 ```[ENDPOINT] /leagues/{id}/standings```
 ```url
-[GET] http://api-football.azharimm.tk/leagues/eng.1/standings?season=2020&sort=asc
+[GET] https://api-football-standings.azharimm.site/leagues/eng.1/standings?season=2020&sort=asc
 ```
 
 #### Sample Response
