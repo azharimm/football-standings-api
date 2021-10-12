@@ -8,7 +8,7 @@ const standingController = require("./src/controllers/standingController");
 const indexController = require("./src/controllers/indexController");
 
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "https://azharimm.tk");
+    res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept, Authorization"
