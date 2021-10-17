@@ -10,7 +10,7 @@ const leagues = [
         },
     },
     {
-        id: "eps.1",
+        id: "esp.1",
         name: "Spanish Primera División",
         slug: "spanish-primera-division",
         abbr: "La Liga",
